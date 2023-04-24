@@ -84,11 +84,6 @@ while video.isOpened():
         texto_jogada1 = area_jogada(area_maxima1)
         resultado(img, texto_jogada1, (480, 100), (128, 128, 128))
 
-        moves_dict = {
-            "Pedra": "Tesoura",
-            "Papel": "Pedra",
-            "Tesoura": "Papel"
-        }
 
         # Verificando vencedor
         if texto_jogada == texto_jogada1:
